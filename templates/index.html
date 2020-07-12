@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	
+    <style>
+        h1{
+            color: red;
+            font-size: 40px;
+            text-align: center;
+            }
+        h2{
+            color: limegreen;
+            font-size: 30px;
+            text-align: center;
+        }
+        textarea { float: center;
+                            width: 600px;
+                            height: 300px;
+                            text-align: center;
+                            background-color: lightblue;
+                            border: solid 5px red;
+                            margin: 20px;
+                            padding: 20px;}
+        .form .button .clear {
+              
+              border: 3px solid red;
+              color: blue;
+              padding: 3px;
+              
+              text-align: center;
+              text-decoration: none;
+              display: inline-block;
+              font-size: 16px;
+              margin: 4px 2px;
+              cursor: pointer;
+              align-content: center;
+              margin: 0;
+              position: absolute;
+              left: 43%;
+              -ms-transform: translateY(-50%);
+              transform: translateY(-50%);
+            }
+        .form .button .summarise {
+              
+              border: 3px solid red;
+              color: blue;
+              padding: 3px;
+              text-align: center;
+              text-decoration: none;
+              display: inline-block;
+              font-size: 16px;
+              margin: 4px 2px;
+              cursor: pointer;
+              align-content: center;
+              margin: 0;
+              position: absolute;
+              left: 50%;
+              -ms-transform: translateY(-50%);
+              transform: translateY(-50%);
+            }
+        
+        
+
+        
+        
+        
+        
+        
+        
+        
+    </style>
+    <h1>Text Summariser</h1>
+</head>
+<body style="background-color: dimgrey">
+
+
+    <div class="form">
+        
+        <form method="POST" >
+        <p class="texta" style="text-align: center;" >
+            <textarea type="text" name="raw_text"  id="raw_text" required="true" placeholder="Enter text here"></textarea>
+        </p>
+	    <p class="button">
+            <span class=" clear">
+                <button class="'btn btn-small waves-effect waves-light light-blue lighten-1" type="reset" >Clear</button>
+            </span>
+            <span class="summarise">
+                <button class="'btn btn-small waves-effect waves-light purple lighten-1" type="Submit" >Summarise</button>
+                
+            </span>
+            
+        </p>
+        
+	    
+
+        </form>
+        
+    </div>
+    
+
+    
+    
+</body>
+
+
+</html>
